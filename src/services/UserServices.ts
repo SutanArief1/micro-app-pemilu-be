@@ -8,8 +8,8 @@ export default new class UserService {
 
       const user = repository.insert({
         fullname: reqBody.fullname,
-        alamat: reqBody.alamat,
-        jenis_kelamin: reqBody.jenis_kelamin,
+        alamat: reqBody.address,
+        jenis_kelamin: reqBody.gender,
         username: reqBody.username,
         password: reqBody.password
       })
